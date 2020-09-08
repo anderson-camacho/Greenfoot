@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=JuegoTerminado
+comment0.text=\r\n\ Esta\ clase\ permite\ que\ realizemos\ la\ publicacion\ del\ tablero\ de\ finalizacion\ de\ proyecto\r\n\ @author\ camachosinh\ \r\n\ @version\ 1.1\ 18.8.2020\r\n
+comment1.params=
+comment1.target=JuegoTerminado()
+comment2.params=
+comment2.target=greenfoot.GreenfootImage\ getImagen()
+comment3.params=imagen
+comment3.target=void\ setImagen(greenfoot.GreenfootImage)
+comment4.params=
+comment4.target=java.lang.String\ getMensaje()
+comment5.params=mensaje
+comment5.target=void\ setMensaje(java.lang.String)
+comment6.params=
+comment6.target=void\ act()
+numComments=7

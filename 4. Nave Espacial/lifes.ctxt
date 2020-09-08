@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=lifes
+comment0.text=\r\nLa\ clase\ Vidas\ nos\ permite\ poder\ aacceder\ a\ una\ cantidad\ de\ posibilidades\ de\ juego\ maximo..\r\n\ \r\n\ @author\ camachosinh\ \r\n\ @version\ 1.2\ 18.8.2020\r\n
+comment1.params=
+comment1.target=lifes()
+comment2.params=
+comment2.target=int\ getLifes()
+comment3.params=
+comment3.target=void\ act()
+comment4.params=
+comment4.target=void\ Disminuir()
+numComments=5

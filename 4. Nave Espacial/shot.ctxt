@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=shot
+comment0.text=\r\n\ Clase\ disparo\ que\ permite\ encontrar\ el\ proceso\ de\ la\ bala\ disparada\ en\ la\ escena\ de\ juego\r\n\ \r\n\ @author\ camachosinh\ \r\n\ @version\ 1.1\ 18.8.2020\r\n
+comment1.params=direccion
+comment1.target=shot(int)
+comment2.params=
+comment2.target=void\ act()
+comment3.params=
+comment3.target=void\ eliminarDisparo()
+comment4.params=
+comment4.target=void\ disparo()
+numComments=5

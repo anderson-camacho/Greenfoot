@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Espacio
+comment0.text=\r\n\ Esta\ clase\ tendra\ como\ objetivo\ ser\ el\ espacio\ donde\ se\ moveran\ los\ objetos\r\n\ identificados\ para\ este\ juego.\ \r\n\ Ejercico\ de\ apoyo,\ para\ clase.\r\n\ \r\n\ Ejercicio\ numero\ de\ Greenfoot\r\n\ \r\n\ Objetos\ del\ juego\:\ Nave,\ Rocas,\ Disparos,\ vidas.\r\n\ \r\n\ @author\ camachosinh\ \r\n\ @version\ 1.1\ 18.8.2020\r\n
+comment1.params=
+comment1.target=Espacio()
+comment2.params=
+comment2.target=Tablero\ getVidas()
+comment3.params=vidas
+comment3.target=void\ setVidas(Tablero)
+comment4.params=
+comment4.target=lifes\ getObjetoLife()
+comment5.params=nuevoObjeto
+comment5.target=void\ setObjetoLife(lifes)
+comment6.params=
+comment6.target=void\ prepare()
+comment7.params=
+comment7.target=void\ crearNave()
+comment8.params=cantidadRocas
+comment8.target=void\ crearRocas(int)
+comment9.params=
+comment9.target=void\ crearVidas()
+numComments=10
