@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=RocketSpace
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ RocketSpace\ here.\r\n\ \r\n\ @author\ Anderson\ Camacho\r\n\ @version\ 1.0\ |\ 5\ -\ 5\ -\ 2021\r\n
+comment1.params=
+comment1.target=RocketSpace()
+comment1.text=\r\n\ Constructor\ de\ RocketSpace,\ genera\ rotacion\ inical\ de\ 270\ grados\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Metodo\ (Procedimeinto)\ de\ ejecucion\ constante\r\n
+comment3.params=
+comment3.target=void\ moveAround()
+comment3.text=\r\n\ Metodos\ de\ RocketSpace\r\n
+comment4.params=
+comment4.target=void\ fireProjectile()
+numComments=5
