@@ -1,17 +1,21 @@
 #BlueJ class context
 comment0.target=Enemy2
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ Enemy2\ here.\r\n\ \r\n\ @author\ Anderson\ Camacho\ \r\n\ @version\ 1.0\r\n
+comment0.text=\r\nSpace\ Game*****************\r\n\ \r\n\ \ Ejercicio\ de\ Uso\ Libre\r\n\ \r\n\ \ No\ se\ permite\ la\ comercializacion\ de\ este\ codigo.\r\n\ \r\n\ \ Realizar\ ejercicio\ de\ programacion\ de\ juego,\ \r\n\ \ en\ el\ cual\ veremos\ con\ programacion\ Orienta\ a\ Objeto\ en\ Java\r\n\ \ Los\ elementos\ necesarios\ para\ aprender\ a\ programar.\r\n\ \ Este\ ejercicio\ puede\ mejorarse\ aun\ mas\ en\ cuestion\ de\ codigo\r\n\ \r\n\ @author\ Anderson\ Camacho\ \r\n\ @email\:\ camachosinh@gmail.com\r\n\ @version\ general\ 1.5\r\n\ \r\n\ nota\:\ falta\ docuemtnar\ despues\ despues\ de\ enemigos.\r\n\ \r\n\ Nota\ del\ desarrollador\:\r\n\ \r\n\ Este\ codigo\ fue\ tomado\ de\ canal\ de\ o\ youtube\ Coding\ Club\ \r\n\ (https\://www.youtube.com/c/CodingClub/about)\ y\ se\ \r\n\ actualizando\ elementos\ a\ codigo\ estandarizado.\ \r\n
 comment1.params=
 comment1.target=Enemy2()
-comment1.text=\r\n\ Constructor\ de\ Enemy2,\ genera\ rotacion\ inical\ de\ 270\ grados\r\n
+comment1.text=\r\n\ Constructor\r\n
 comment2.params=
 comment2.target=int\ getTimerHit()
+comment2.text=\r\n\ Metodos\ getter\ and\ setters\r\n
 comment3.params=timerHit
 comment3.target=void\ setTimerHit(int)
 comment4.params=
 comment4.target=void\ act()
-comment4.text=\r\n\ Metodo\ (Procedimeinto)\ de\ ejecucion\ constante\r\n
+comment4.text=\r\n\ Metodos\ Action\ que\ se\ ejecuta\ siempre\ que\ el\ objeto\ exista\r\n
 comment5.params=
-comment5.target=void\ hitByProjectile()
-comment5.text=\r\n\ Metodos\ de\ Enemy2\r\n
-numComments=6
+comment5.target=void\ prepare()
+comment5.text=\r\n\ Metodo\ preparacion\ de\ los\ elementos\ de\ esta\ Clase\r\n
+comment6.params=
+comment6.target=void\ hitByProjectile()
+comment6.text=\r\n\ Metodos\ de\ Enemy2\ completos\ y\ con\ elementos\ completos\ no\ estandares.\r\n
+numComments=7
