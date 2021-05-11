@@ -1,35 +1,30 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class Enemy1 here.
+ * Write a description of class Boss here.
  * 
- * @author Anderson Camacho 
- * @version 1.0
- */ 
-public class Enemy1 extends Enemy
+ * @author (your name) 
+ * @version (a version number or a date)
+ */
+public class Boss extends Enemy
 {
+    int timesHit = 10;
     /**
-     * Constructor de Enemy1, genera rotacion inical de 270 grados
-       */
-    public Enemy1()
-    {
-       
+     * Act - do whatever the Boss wants to do. This method is called whenever
+     * the 'Act' or 'Run' button gets pressed in the environment.
+     */
+    public Boss(){
+        setRotation(90);
     }
-    
-    /**
-     * Metodo (Procedimeinto) de ejecucion constante
-       */
-     public void act() 
+
+    public void act() 
     {
         moveEnemy();
-        hitByProjectile();
+        hitProjectile();
     }    
-    
-    /**
-     * Metodos de Enemy1
-     */  
-    
-    public void hitByProjectile(){
+
+    public void hitProjectile(){
+
         Actor projectile = getOneIntersectingObject(Projectile.class);
         if(projectile != null)
         {
@@ -38,12 +33,21 @@ public class Enemy1 extends Enemy
             MyWorld myWorld = (MyWorld)world;
             Counter counter = myWorld.getCounter();
             counter.addScore();
+            timesHit--;
+        }
+
+        if(timesHit == 0){
             getWorld().removeObject(this);
-        } else if(getY() == 599)
+        }else if(getY() == 599)
         {
+            int losePoints = 10;
             World world = getWorld();
             MyWorld myWorld = (MyWorld)world;
             HealthBar healthBar = myWorld.getHealthBar();
+            while(losePoints > 1){
+                healthBar.loseHealth();
+                losePoints --;
+            }
             healthBar.loseHealth();
             getWorld().removeObject(this);
         }
