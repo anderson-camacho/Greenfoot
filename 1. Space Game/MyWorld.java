@@ -14,7 +14,9 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * 
  * @author Anderson Camacho 
  * @email: camachosinh@gmail.com
- * @version general 1.3
+ * @version general 1.5
+ * 
+ * nota: falta docuemtnar despues despues de enemigos.
  * 
  * Nota del desarrollador:
  * 
